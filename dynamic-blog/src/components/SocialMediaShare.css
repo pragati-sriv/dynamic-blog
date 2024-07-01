@@ -1,0 +1,33 @@
+.social-media-share {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-media-share button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-media-share button:hover {
+    background-color: #45a049; 
+  }
+  
+  @media (max-width: 768px) {
+    .social-media-share {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-media-share button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  
